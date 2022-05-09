@@ -1,0 +1,50 @@
+1) Transaction | Blocks :
+     The chain of blocks with transactions, is replaced with various transaction chains.
+     Each block is a transaction, Each transaction is a block with its own proof. There 
+     is only one transaction in a block, with its own chain.
+
+     Each block is a transaction with its own validation evidences that will allow it
+     to be associated with a given chain.
+
+    
+
+2) Transaction Chains: 
+     A transaction chain is chain of validated transactions.
+ 
+     A a transaction is linked to the previous transaction cryptograhically, and a new
+     transaction can only be added from the last validated transaction  in the chain.
+
+     Each validated transaction is stored as a chain that can only be updated from the 
+     last validated transaction in the chain.
+
+     The address of any transaction in the same chain could be used as a destination address,
+     it is not necessary to specify the last transaction in the chain
+
+     The first transaction in the chain (i.e genesis) is widely used as
+     the reference for the chain
+
+     txn 0(genesis txn) -> txn 1 -> txn 2 -> txn 3 ... -> txn index
+
+3) Different Types of Transaction Chains: 
+    #//-Public Smart-Contracts and Decentralized Identity Ledgers
+     Chains( UCO wallet),
+     Smart-Contract  Transactions Chains,
+     Decentralized Identities Transactions Chains for Nodes,
+     Transactions chains of the authorized nodes,
+     Beacon Chains,
+     Oracle Chains,
+     Storage Chains,
+     Node Chain,
+     Network Transactions Chains,
+     Keychains,
+     Transactions chains of Heuristic Algorithms and software,
+     Shared Secrets Chains of Nodes and Devices 
+     Prediction module Chain
+
+
+4) ARCH Consensus  
+     Atomic Rotating Commitment Heuristic
+     
+
+
+
